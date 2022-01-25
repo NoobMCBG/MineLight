@@ -1,0 +1,30 @@
+---
+SeasonPass:
+  cost: 200
+  permission: "seasonpass.eletepass"
+OnlineReward:
+  cost: 500
+  permission: "onlinereward.use"
+MuaRanks:
+  LightI:
+    cost: 30
+    groups: "LightI"
+  LightII:
+    cost: 50
+    groups: "LightII"
+  LightIII:
+    cost: 100
+    groups: "LightIII"
+  LightIV:
+    cost: 200
+    groups: "LightIV"
+  LightV:
+    cost: 300
+    groups: "LightV"
+  LightVI:
+    cost: 400
+    groups: "LightVI"
+  LightVII:
+    cost: 500
+    groups: "LightVII"
+...

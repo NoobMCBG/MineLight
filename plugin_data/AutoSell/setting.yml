@@ -1,0 +1,11 @@
+# AUTO SELL CONFIG
+
+# MESSAGE 
+usage: "§l§c•§e Sử Dụng:§b /autosell <on|off>"
+enabled: "§l§c•§e Chế Độ AutoSell Đã§a Bật"
+disabled: "§l§c•§e Chế Độ AutoSell Đã§c Tắt"
+has-enabled: "§l§c•§e Chế Độ AutoSell Đã§a Bật"
+has-disabled: "§l§c•§e Chế Độ AutoSell Đã§c Tắt"
+
+# COMMAND
+sellcmd: "sell all"
