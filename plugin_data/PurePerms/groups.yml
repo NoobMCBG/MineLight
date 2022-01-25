@@ -1,0 +1,196 @@
+---
+Guest:
+  alias: gst
+  isDefault: true
+  inheritance: []
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - sell
+  worlds: []
+Admin:
+  alias: adm
+  inheritance:
+  - Guest
+  permissions:
+  - essentials.gamemode
+  - pocketmine.broadcast
+  - pocketmine.command.gamemode
+  - pocketmine.command.give
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  worlds: []
+Owner:
+  alias: owr
+  inheritance:
+  - Admin
+  permissions:
+  - essentials
+  - pocketmine.command
+  - pperms.command
+  worlds: []
+OP:
+  alias: op
+  inheritance: []
+  permissions:
+  - '*'
+  worlds: []
+LightI:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - food.command
+  - heal.command
+  - kit.light1
+  worlds: []
+LightII:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - food.command
+  - heal.command
+  - kit.light1
+  - kit.light2
+  - pocketmine.command.teleport
+  worlds: []
+LightIII:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - food.command
+  - heal.command
+  - jump.command
+  - kit.light1
+  - kit.light2
+  - kit.light3
+  - pocketmine.command.teleport
+  - speed.command
+  worlds: []
+LightIV:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - food.command
+  - heal.command
+  - jump.command
+  - kit.light1
+  - kit.light2
+  - kit.light3
+  - kit.light4
+  - nightvision.command
+  - pocketmine.command.teleport
+  - speed.command
+  worlds: []
+LightV:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - food.command
+  - heal.command
+  - jump.command
+  - kit.light1
+  - kit.light2
+  - kit.light3
+  - kit.light4
+  - kit.light5
+  - nick.command
+  - nightvision.command
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - speed.command
+  - time.command
+  worlds: []
+LightVI:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - food.command
+  - heal.command
+  - jump.command
+  - kit.light1
+  - kit.light2
+  - kit.light3
+  - kit.light4
+  - kit.light5
+  - kit.light6
+  - nightvision.command
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - speed.command
+  - time.command
+  - toollevel.pickaxeleveling
+  worlds: []
+LightVII:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - food.command
+  - gamemode.command
+  - heal.command
+  - jump.command
+  - kit.light1
+  - kit.light2
+  - kit.light3
+  - kit.light4
+  - kit.light5
+  - kit.light6
+  - kit.light7
+  - nightvision.command
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - speed.command
+  - time.command
+  - toollevel.pickaxeleveling
+  worlds: []
+Police:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - blazinfly.command
+  - blazinfly.other
+  - food.command
+  - freeze.command
+  - gamemode.command
+  - heal.command
+  - jump.command
+  - kit.light1
+  - kit.light2
+  - kit.light3
+  - kit.light4
+  - kit.light5
+  - kit.light6
+  - kit.light7
+  - mute.command
+  - nightvision.command
+  - pocketmine.command.kick
+  - pocketmine.command.telepor
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - speed.command
+  - theodoi.command
+  - time.command
+  - toollevel.pickaxeleveling
+  - unfreeze.command
+  worlds: []
+...

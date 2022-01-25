@@ -1,0 +1,8 @@
+---
+userName: khoastr
+group: Guest
+permissions:
+- pocketmine.command.teleport
+worlds: []
+time: -1
+...

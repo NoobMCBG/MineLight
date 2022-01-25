@@ -1,0 +1,48 @@
+---
+version: 1.4.10-6
+default-factions-plugin: FactionsPro
+enable-multiworld-chat: false
+groups:
+  Guest:
+    chat: §l§c•§a Guest §c• §6【§3{clan_name}§6】§f {display_name} §e:§f {msg}
+    nametag: §l§c•§a Guest §c• §6【§3{clan_name}§6】§f {display_name}
+    worlds: []
+  Admin:
+    chat: §l§c•§b A§dd§am§ei§fn §c• §6【§3{clan_name}§6】§a {display_name} §e:§d {msg}
+    nametag: §l§c•§b A§dd§am§ei§fn §c• §6【§3{clan_name}§6】§a {display_name}
+    worlds: []
+  Owner:
+    chat: '&d[Owner] &c{fac_rank}{fac_name} &b{display_name} &c>&6> &b{msg}'
+    nametag: '&d[Owner]&c {fac_rank}{fac_name} &b{display_name}'
+    worlds: []
+  OP:
+    chat: '&a[OP] &5{fac_rank}{fac_name}&b {prefix}{display_name}{suffix} &c>&6> &f{msg}'
+    nametag: '&a[OP] &c{fac_rank}{fac_name} &b{display_name}'
+    worlds: []
+  LightI:
+    nametag: §l§c•§b Light§dI §c• §6【§3{clan_name}§6】§b {display_name}
+    chat: §l§c•§b Light§dI §c• §6【§3{clan_name}§6】§b {display_name} §d:§e {msg}
+  LightII:
+    nametag: §l§c•§b Light§dII §c• §6【§3{clan_name}§6】§b {display_name}
+    chat: §l§c•§b Light§dII §c• §6【§3{clan_name}§6】§b {display_name} §d:§e {msg}
+  LightIII:
+    nametag: §l§c•§b Light§dIII §c• §6【§3{clan_name}§6】§b {display_name}
+    chat: §l§c•§b Light§dIII §c• §6【§3{clan_name}§6】§b {display_name} §d:§e {msg}
+  LightV:
+    nametag: §l§c•§b Light§dV §c• §6【§3{clan_name}§6】§b {display_name}
+    chat: §l§c•§b Light§dV §c• §6【§3{clan_name}§6】§b {display_name} §d:§e {msg}
+  LightVI:
+    nametag: §l§c•§b Light§dVI §c• §6【§3{clan_name}§6】§b {display_name}
+    chat: §l§c•§b Light§dVI §c• §6【§3{clan_name}§6】§b {display_name} §d:§e {msg}
+  LightVII:
+    nametag: §l§c•§b Light§dVII §c• §6【§3{clan_name}§6】§b {display_name}
+    chat: §l§c•§b Light§dVII §c• §6【§3{clan_name}§6】§b {display_name} §d:§e {msg}
+  LightIV:
+    nametag: §l§c•§b Light§dIV §c• §6【§3{clan_name}§6】§b {display_name}
+    chat: §l§c•§b Light§dIV §c• §6【§3{clan_name}§6】§b {display_name} §d:§e {msg}
+  Police:
+    chat: §l§c•§9 Pol§eice §c• §6【§3{clan_name}§6】§e {display_name} §b:§a {msg}
+    nametag: §l§c•§9 Pol§eice §c• §6【§3{clan_name}§6】§e {display_name} §b:§a
+  ANHEMVN:
+    nametag: '&8&l[ANHEMVN]&f&r {display_name}'
+...

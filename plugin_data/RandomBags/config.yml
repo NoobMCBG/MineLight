@@ -1,0 +1,14 @@
+---
+KitBaoLongQuanVu:
+# Giá Quay Đồ (Tính theo Tokens) 
+  cost: 800
+KitKhucLongQuanVu:
+# Giá Quay Đồ (Tính theo Tokens) 
+  cost: 500
+KitBachBaoDao:
+# Giá Quay Đồ (Tính theo Tokens) 
+  cost: 700
+KitGozila:
+# Giá Quay Đồ (Tính theo Tokens) 
+  cost: 1000
+...
