@@ -1,0 +1,10 @@
+name: MyItems
+author: AnhKhoaaa
+api: 3.0.0
+version: 0.1
+main: MyItem\Main
+
+commands: 
+  mi:
+    description: "Lệnh Để Chỉnh Sửa Item Trên Tay"
+    aliases: [myitem, myitems] 

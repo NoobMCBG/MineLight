@@ -1,0 +1,10 @@
+name: MuaGoi
+main: NoobMCBG\MuaGoi\Main
+api: 3.0.0
+version: 1.0.0
+author: NoobMCBG
+
+commands:
+  muagoi:
+    description: Lệnh Để Mở Menu Mua Các Gói Xu Hoặc Tokens
+    aliases: [muaxu, doixu, muatoken, doitoken, buytoken, buyxu buymoney, muamoney]
