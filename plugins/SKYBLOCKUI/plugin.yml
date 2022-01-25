@@ -1,0 +1,11 @@
+name: MenuSkyBlockUI
+main: NoobMCBG\SkyBlockUI\Main
+api: 3.0.0
+version: 1.0.0
+author: NoobMCBG
+
+commands:
+  sb:
+    description: Lệnh Để Mở Menu SkyBlock
+    aliases: [skyblock, skyb, sblock]
+    default: true
