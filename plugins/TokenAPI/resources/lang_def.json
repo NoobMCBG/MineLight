@@ -1,0 +1,67 @@
+{
+    "language": "def",
+	"commands": {
+		"mytoken": {
+			"usage": "/mytoken",
+			"description": "Xem Số Tokens Của Bạn"
+		},
+		"toptoken": {
+			"usage": "/toptoken [trang]",
+			"description": "Xem Top Tokens Của Server."
+		},
+		"settoken": {
+			"usage": "/settoken <tên> <số>",
+			"description": "Chỉnh Số Tokens Cho Một Người Chơi"
+		},
+		"seetoken": {
+			"usage": "/seetoken <tên>",
+			"description": "Xem Số Tokens Của Một Người Chơi"
+		},
+		"givetoken": {
+			"usage": "/givetoken <tên> <số>",
+			"description": "Lấy Tokens Cho Một Người Chơi"
+		},
+		"taketoken": {
+			"usage": "/taketoken <tên> <số>",
+			"description": "Lấy Tokens Của Một Người Chơi"
+		},
+		"paytoken": {
+			"usage": "/paytoken <tên> <số>",
+			"description": "Chuyển Tokens Cho Một Người Chơi"
+		},
+		"setlangtoken": {
+			"usage": "/setlangtoken <ngôn ngữ>",
+			"description": "Đặt Ngôn Ngữ Cho Tokens [def,en,vie]"
+		},
+		"mystatustoken": {
+			"usage": "/mystatustoken",
+			"description": "Xem Tình Trạng Tokens Của Bạn"
+		}
+	},
+    "language-set": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Đã chọn§b %1 §elà ngôn ngữ",
+    "request-cancelled": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Yêu cầu của bạn đã bị hủy",
+    "player-not-connected": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Người chơi tên§b %1 §ehiện không có trực tuyến.",
+    "player-never-connected": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Người chơi tên§b %1 §ekhông tìm thấy trong server.",
+    "toptoken-tag": "§l§c-=§e TOP §aTOKENS§b %1/%2 §c=-",
+    "toptoken-format": "§e]%1] %2: %3 §aTokens",
+    "pay-failed": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Bạn không có đủ §aTokens§e để chuyển",
+    "pay-success": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Bạn đã chuyển§a %1 §aTokens§e cho§b %2",
+    "token-paid": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Người chơi§b %1 §eVừa Chuyển Cho Bạn§a %2 Tokens.",
+    "taketoken-must-be-number": "§l§cSố lượng phải là số",
+    "taketoken-invalid-number": "§l§cSố không hợp lệ",
+    "taketoken-player-lack-of-token": "%1 không đủ %MONETARY_UNIT%%2. %1's Tokens : %MONETARY_UNIT%%3",
+    "taketoken-token-taken": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e bạn đã bị tịch thu:§a %1 Tokens",
+    "taketoken-took-token": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Đã tịch thu§a %2 Tokens§3 của người chơi§b %1",
+    "taketoken-failed": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Bạn không thể lấy §aTokens §etừ người này",
+    "givetoken-must-be-number": "§l§cSố Tokens phải là số",
+    "givetoken-invalid-number": "§l§cSai số",
+    "givetoken-token-given": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Bạn đã nhận được:§a %1 Tokens",
+    "givetoken-gave-token": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Đã Lấy§a %1 Tokens§e cho người chơi§b %2",
+    "seetoken-seetoken": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Người chơi§b %1 §ehiện đang có:§a %2 Tokens",
+    "settoken-settoken": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Người chơi§b %1 §eđã được chỉnh §aTokens §ethành§b %2 §a",
+    "settoken-set": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§a Tokens§e của bạn đã được chỉnh thành:§a %1 Tokens",
+    "settoken-failed": "§l§cKhông thể đặt Tokens do lỗi không xác định",
+    "settoken-invalid-number": "§l§c%MONETARY_UNIT%%1 Phải là một số",
+    "mytoken-mytoken": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§a Tokens§e của bạn:§a %1 Tokens",
+    "mystatus-show": "§l[§eᴍɪɴᴇ§6-§fʟɪɢʜᴛ§f]§e Trạng thái §aTokens§e của bạn:§b %1%"
+}

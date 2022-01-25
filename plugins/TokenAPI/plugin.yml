@@ -1,0 +1,42 @@
+name: TokenAPI
+main: onebone\tokenapi\TokenAPI
+api: 3.0.0
+version: 2.0.9
+author: NoobMCBG, onebone
+description: Plugin TokenAPI Được Edit Bởi NoobMCBG
+permissions:
+ tokenapi.*:
+  default: op
+  description: Allows to control all of functions in TokenAPI
+  children:
+   tokenapi.command.*:
+    default: op
+    description: Allows to use all of commands in TokenAPI
+    children:
+     tokenapi.command.settoken:
+      default: op
+      description: Allows to set player token
+     tokenapi.command.mytoken:
+      description: Allows player to see his her token
+      default: true
+     tokenapi.command.givetoken:
+      description: Allows player to give token to others
+      default: op
+     tokenapi.command.paytoken:
+      description: Allows player to pay to someone
+      default: true
+     tokenapi.command.seetoken:
+      description: Allows player to see others token
+      default: true
+     tokenapi.command.setlangtoken:
+      description: Allows player to set his her language
+      default: op
+     tokenapi.command.toptoken:
+      description: Allows player to see top token list
+      default: true
+     tokenapi.command.mystatustoken:
+      description: Allows player to see his her financial status
+      default: op
+     tokenapi.command.taketoken:
+      description: Allows player to take token from others
+      default: op
