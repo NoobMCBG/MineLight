@@ -1,0 +1,14 @@
+---
+# Config.yml
+# Chrono Plugin
+# github: https//github.com/NoobMCBG
+
+# Name Item use to Tell
+item-name: "§l§eKhiên§b Chrono"
+
+# Lore Item use to Tell
+item-lore: "§eGiữ hoặc chuột phải để tạo khiên\n§l§eSau 8 Giây Khiên Sẽ Biến Mất\n§l§eKhiên chỉ sử dụng được một lần !"
+
+# No Permission use command /giveshield
+no-permission: "§l§c Bạn không có quyền sử dụng lệnh này"
+...

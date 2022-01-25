@@ -1,0 +1,20 @@
+name: Freeze
+main: NoobMCBG\Freeze\Main
+api: [3.0.0, 4.0.0]
+version: 1.0.0
+author: NoobMCBG
+
+commands:
+  freeze:
+    description: Lệnh Để Freeze Người Chơi
+    aliases: [dongbang]
+  unfreeze:
+    description: Lệnh Để Bỏ Freeze Người Chơi
+    aliases: [undongbang, huydongbang]
+permissions:
+  freeze.command:
+    description: Quyền Lệnh /freeze
+    default: op
+  unfreeze.command:
+    description: Quyền Lệnh /unfreeze
+    default: op

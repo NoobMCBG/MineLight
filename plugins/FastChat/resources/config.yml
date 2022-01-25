@@ -1,0 +1,6 @@
+---
+# Broadcast Message
+message-broadcast:
+  #thời gian broadcast
+  time: 60
+...

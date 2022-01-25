@@ -1,0 +1,10 @@
+name: DichChuyenUI
+main: NoobMCBG\DichChuyenUI\Main
+api: 3.0.0
+version: 1.0.0
+author: NoobMCBG
+
+commands:
+  dichchuyen:
+    description: Lệnh Để Mở Menu Dịch Chuyển Qua Các Khu Vực
+    aliases: [warpmenu, menuwarp]

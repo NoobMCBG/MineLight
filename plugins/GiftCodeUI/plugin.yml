@@ -1,0 +1,12 @@
+﻿---
+name: GiftCode
+author: LetTIHL
+main: giftcode\Main
+api: 3.0.0
+version: 2.0.0
+commands:
+ taocode:
+  description: "Lệnh Để Mở Menu Tạo GiftCode"
+ nhapcode:
+  description: "Lệnh Để Nhập GiftCode"
+...

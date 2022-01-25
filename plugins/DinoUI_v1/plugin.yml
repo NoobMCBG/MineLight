@@ -1,0 +1,10 @@
+name: DinoUI
+main: AlvinMask\DinoUI\Main
+api: [3, 4]
+version: 1
+author: AlvinMask
+#edit by JakayPlugin
+
+commands:
+ dinoui:
+     description: Hệ Thống Menu DinoUI

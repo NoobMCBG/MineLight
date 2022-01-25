@@ -1,0 +1,14 @@
+name: GCPClan
+main: instantlyta\fcaclan\FCAClan
+version: 1.1
+api: [3.0.0, 4.0.0]
+author: InstantlyTa
+authors: [NhanAZ]
+description: Chúng ta hãy có một số gia tộc nào!
+website: http://fcape.vn
+commands:
+  clan:
+    description: Lệnh Về Clan
+  clanchat:
+    description: Trò Chuyện Trong Clan
+    aliases: ["cchat", "c"]

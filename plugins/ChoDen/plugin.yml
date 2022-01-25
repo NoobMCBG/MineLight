@@ -1,0 +1,10 @@
+name: ChoDen
+main: NoobMCBG\Choden\Main
+api: 3.0.0
+version: 1.0.0
+author: NoobMCBG
+
+commands:
+  choden:
+    description: Lệnh Để Mở Menu Chợ Đen
+    aliases: [blackmarket]

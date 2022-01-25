@@ -1,0 +1,20 @@
+name: FastChat
+main: NoobMCBG\FastChat\Main
+api: 3.0.0
+version: 1.0.0
+author: NoobMCBG
+idea: MnhtestTuan, MinhMCBG
+description: Plugins Chat Đúng Nhận Quà
+
+commands:
+  fastchat:
+    description: Lệnh Về FastChat
+    usage: /fastchat help
+    aliases: [fc]
+permissions:
+  fastchat.command.help:
+    description: Quyền Sử Dụng /fastchat help
+    default: op
+  fastchat.command.create:
+    description: Quyền Sử Dụng /fastchat create
+    default: op
