@@ -1,0 +1,34 @@
+---
+# KygekRulesUI plugin config
+# Created by Kygekraqmak
+
+# Use "{player}" to display player name
+# Use "§" as formatting codes
+# Use "\n" to break into a new line
+
+##### DANGER ZONE #####
+# Do not change this (Only for internal use)!
+config-version: 1.2
+#######################
+
+##### COMMAND SETTINGS #####
+# Change the command description that will be shown in help pages and command suggestions
+# Leave empty to use the default command description
+command-desc: ""
+# Add command aliases for /rules command (Leave empty if you don't want to add command aliases)
+# Do not use "/" in front of the commands!
+command-aliases: [luat]
+#############################
+
+# Set the KygekRulesUI title here:
+title: "§l§cLuật Server"
+
+# Set the KygekRulesUI content here:
+content: "§l§a✔§e Đây Là Luật Của Server, Hãy Đocj Kĩ Trước Khi Chơi\n§l§a✔§e Trước Tiên, Cám Ơn Bạn Đã Chơi Server: §b{player}\n\n§l§a✔§e Điểu 1:§b Bạn Không Được Phép §cHack, Cheat\n§l§a✔§e Điều 2:§b Bạn Không Được Phép §cBug Đồ\n§l§a✔§e Điều 3:§b Nếu Có §cLỗi Trong Server §bHãy Báo Với Admin\n§l§a✔§e Điều 4:§b Bạn Không Được §cSpam Quá 8 Từ Trong 1 Lần\n§l§a✔§e Điều 5:§b Bạn Tố Cáo Được §cHacker, §bBạn Sẽ Được Thưởng\n§l§e Phần Thưởng Là: §625 Point,§2 2 Tokens\n\n§l§a✔§e Cám Ơn Bạn Đã Đọc, Chúc Bạn Chơi Vui Vẻ !"
+
+# Set the KygekRulesUI button here:
+button: "Ok"
+
+# Whether to check for plugin updates (Recommended)
+check-updates: true
+...

@@ -1,0 +1,8 @@
+---
+#Time in seconds
+update-players-interval: 10
+
+#Format: "ip:port"
+servers-to-query:
+  - "1:19132"
+...

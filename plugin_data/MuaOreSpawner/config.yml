@@ -1,0 +1,8 @@
+---
+cost-coal: 5
+cost-iron: 10
+cost-gold: 20
+cost-redstone: 30
+cost-diamond: 50
+cost-emerald: 80
+...
