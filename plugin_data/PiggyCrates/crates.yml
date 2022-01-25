@@ -1,0 +1,209 @@
+crates:
+  Chienthan:
+    drops:
+      - id: 22
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 41
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 42
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 172
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 152
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 57
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 133
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 278
+        meta: 0
+        amount: 1
+        name: "§l§c• Cúp Chiến Thần §c•"
+        lore: "§l§d-------------------------\n§l§c• Cúp Chiến Thần Được Trao Từ Những Vị Thần Đi Đại Chiến\n§l§c• Cúp Có Hiệu Xuất Cao, Gia Tài Lớn, Tự Động Sửa\n§l§c•§e Khi Đào Có Tỉ Lệ Rơi Ra Quặng\n\n§l§c•§e Tỉ Lệ Đào Ra Mảnh Vỡ:§a ∎∎∎∎§6∎§f∎∎∎∎∎\n§l§c•§e Độ Hiếm:§b Khá Hiếm\n§l§d-------------------------"
+        enchantments:
+          - name: "autorepair"
+            level: 1
+          - name: "efficiency"
+            level: 20
+          - name: "fortune"
+            level: 20
+          - name: "unbreaking"
+            level: 20
+          - name: "mending"
+            level: 20
+          - name: "jackpot"
+            level: 2
+          - name: "haste"
+            level: 1
+        chance: 5
+    amount: 1
+    commands: ["say §l§c•§e Người Chơi§a {PLAYER} Đang Quay Rương§a Chiến Thần §c•"]
+    floating-text: "§l§c•§e Rương§a Chiến Thần §c•"
+  Hacbach:
+    drops:
+      - id: 22
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 41
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 42
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 172
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 152
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 57
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 133
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 276
+        meta: 0
+        amount: 1
+        name: "§l§c• Kiếm Hắc Bạch §c•"
+        lore: "§l§d-------------------------\n§l§c• Kiếm Hặc Bạch Được Tạo Ra Từ Những Da Của Bạch Xà\n§l§c• Kiếm Có Sát Thương Cao, Bật Lùi Xa, Chém Ra Lửa\n§l§c•§e Kiếm Có Thể Gây Độc Cho Người Bị Trúng Đòn Chém\n\n§l§c•§e Tỉ Lệ Nhận Được Mảnh Vỡ Khi Ghết Người Chơi:§a ∎∎∎∎∎§f∎∎∎∎∎\n§l§c•§e Độ Hiếm:§b Khá Hiếm\n§l§d-------------------------"
+        enchantments:
+          - name: "autorepair"
+            level: 1
+          - name: "sharpness"
+            level: 15
+          - name: "fire_aspect"
+            level: 2
+          - name: "unbreaking"
+            level: 15
+          - name: "mending"
+            level: 15
+          - name: "Aerial"
+            level: 2
+          - name: "Poison"
+            level: 2
+        chance: 5
+    amount: 1
+    commands: ["say §l§c•§e Người Chơi§a {PLAYER} §l§c•§e Bạn Đang Quay Rương§a Hắc Bạch §c•"]
+    floating-text: "§l§c•§e Rương§a Hắc Bạch §c•"
+  TheLight:
+    drops:
+      - id: 22
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 41
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 42
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 172
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 152
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 57
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 133
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 743
+        meta: 0
+        amount: 1
+        name: "§l§c• Kiếm Ánh Sáng §c•"
+        lore: "§l§d-------------------------\n§l§c• Kiếm Ánh Sáng Được Hấp Thụ Quặng Từ Ánh Sáng Mặt Trời\n§l§c• Kiếm Có Khả Năng Biến Trời Thành Buổi Sáng\n§l§c•§e Kiếm Có Thể Gây Độc Cực Nặng Cho Người Bị Trúng Đòn Chém\n\n§l§c•§e Tỉ Lệ Nhận Được Mảnh Vỡ Khi Ghết Người Chơi:§a ∎∎∎∎∎∎∎∎∎§6∎\n§l§c•§e Độ Hiếm:§b Cực Hiếm\n§l§d-------------------------"
+        enchantments:
+          - name: "autorepair"
+            level: 5
+          - name: "sharpness"
+            level: 40
+          - name: "fire_aspect"
+            level: 5
+          - name: "unbreaking"
+            level: 40
+          - name: "mending"
+            level: 40
+          - name: "Aerial"
+            level: 3
+          - name: "Poison"
+            level: 3
+          - name: "Wither"
+            level: 3
+          - name: "Lightning"
+            level: 3
+        chance: 1
+    amount: 1
+    commands: ["say §l§c•§e Người Chơi§a {PLAYER} §l§c•§e Bạn Đang Quay Rương§a TheLight §c•"]
+    floating-text: "§l§c•§e Rương§a TheLight §c•"
+  Vote:
+    drops:
+      id: 22
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 41
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 42
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 172
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 152
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 57
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 133
+        meta: 0
+        amount: 64
+        chance: 25
+      - id: 467
+        meta: 0
+        amount: 1
+        name: "§l§c• Ngọc Thiên Sứ §c•"
+        lore: "§l§d-------------------------\n§l§c•§e Ngọc Thiên Sứ Dùng Để Khảm Ngọc\n§l§c•§e Sử Dụng Lệnh §b/khamngoc§e Để Khảm Ngọc Này Vào Vật Phẩm\n§l§c•§e Tỉ Lệ Khảm Ngọc Thành Công:§a 50%\n§l§d-------------------------"
+        enchantments:
+          - name: "unbreaking"
+            level: 10
+        chance: 1
+    amount: 1
+    commands: ["say §l§c•§e Người Chơi§a {PLAYER} §l§c•§e Bạn Đang Quay Rương§a Vote §c•"]
+    floating-text: "§l§c•§e Rương§a Vote §c•"
