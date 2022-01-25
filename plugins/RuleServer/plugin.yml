@@ -1,0 +1,10 @@
+name: RulesServer
+main: NoobMCBG\Rule\Main
+api: [3.0.0, 4.0.0]
+version: 1.0.0
+author: NoobMCBG
+
+commands:
+  rule:
+    description: Lệnh Để Mở Menu Luật Của Server
+    aliases: [luat, rules]

@@ -1,0 +1,10 @@
+name: SettingUI
+version: 1.0.0
+main: NoobMCBG\SettingUI\Main
+api: [3.0.0]
+author: NoobMCBG
+commands:
+  setting:
+    description: "Lệnh Để Mở Menu Cải Đặt Trong Server"
+    aliases:
+    - caidat

@@ -1,0 +1,15 @@
+name: QuyenLoiRank
+main: KNVN\QuyenVIP\Main
+api:
+- 3.0.0
+- 4.0.0
+author: KingNightVN //DON'T EDIT AUTHOR!
+version: 1.0
+
+commands:
+ quyenvip:
+  description: Lệnh Để Mở Menu Quyền Lợi Ranks
+  alias: [quyenvip]
+ qvip:
+  description: Lệnh Để Mở Menu Quyền Lợi Ranks
+  alias: [quyenvip]

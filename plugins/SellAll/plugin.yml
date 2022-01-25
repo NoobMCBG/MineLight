@@ -1,0 +1,19 @@
+name: Sell
+api: [3.0.0]
+main: SellHand\Main
+version: 3.0.0
+author: [Muqsit]
+authors: [KairusDarkSeeker, JackMD]
+depend: EconomyAPI
+commands:
+  sell:
+    description: "Lệnh Để Bán Đồ"
+    default: true
+permmissions:
+  sell:
+    default: true
+    children:
+      sell.hand:
+        default: true
+      sell.all:
+        default: true

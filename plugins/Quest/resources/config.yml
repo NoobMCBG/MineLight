@@ -1,0 +1,28 @@
+---
+# Config.yml
+# Plugin Nhiệm Vụ by NoobMCBG
+
+# Số Block Đập Để Hoàn Thành Nhiệm Vụ
+# Ví dụ 30000, thì người chơi sẽ phải phá 30k khối mới nhận được xu thưởng
+break-max: 30000
+# Số Xu Nhận Được Khi Hoàn Thành Nhiệm Vụ
+# Ví dụ 100000, thì người chơi hoàn thành nhiệm vụ phá khối sẽ nhận được 100k Xu
+money-break-quest: 30000
+
+# Số Block Đặt Để Hoàn Thành Nhiệm Vụ
+# Ví dụ 30000, thì người chơi sẽ phải đặt 30k khối mới nhận được xu thưởng
+place-max: 25000
+# Số Xu Nhận Được Khi Hoàn Thành Nhiệm Vụ
+# Ví dụ 100000, thì người chơi hoàn thành nhiệm vụ đặt khối sẽ nhận được 100k Xu
+money-place-quest: 300000
+
+# Số Người Chơi Ghết Để Hoàn Thành Nhiệm Vụ
+# Ví dụ 30000, thì người chơi sẽ phải ghết 30k người chơi mới nhận được xu thưởng
+kill-max: 30
+# Số Xu Nhận Được Khi Hoàn Thành Nhiệm Vụ
+# Ví dụ 100000, thì người chơi hoàn thành nhiệm vụ ghết người sẽ nhận được 100k Xu
+money-kill-quest: 30000
+
+# Tin Nhắn Khi Reset Nhiệm Vụ Sau 1 Ngày (24h)
+msg-reset: "§l§c•§e Thời Gian Làm Nhiệm Vụ Đã Được §aReset. §b/nhiemvu§e Đã Làm Và Nhận Quà Nhé !"
+...
