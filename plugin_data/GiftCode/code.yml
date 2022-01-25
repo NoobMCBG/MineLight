@@ -1,0 +1,26 @@
+---
+onechansama:
+  money: "100000"
+  count: 0
+  cm: givetoken ClickedTran 10000
+123:
+  money: "100"
+  count: 1
+  cm: give {player} 1 64
+vudeptrai:
+  money: "100000"
+  count: 0
+  cm: give NoobOfBlind 57 512
+minelightbeta:
+  money: "10000"
+  count: 1
+  cm: Chúc mừng bạn đã nhận được 10k
+minelight001:
+  money: "150"
+  count: 1
+  cm: say Người Chơi§a {PLayrer} §rĐã Nhập code Và Nhận 150 VNĐ
+mnl2021:
+  money: "15"
+  count: 1
+  cm: §l§aĐã nhập code thành cong và nhận được 15 VNĐ
+...

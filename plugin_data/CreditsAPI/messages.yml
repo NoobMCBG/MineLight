@@ -1,0 +1,66 @@
+---
+language: vie
+commands:
+  mycredits:
+    usage: /mycredits
+    description: Lệnh Để Xem Số Credits Của Bạn
+  topcredits:
+    usage: /topcredits [trang]
+    description: Lệnh Để Xem Top Credits Của Server.
+  setcredits:
+    usage: /setcredits <tên> <số>
+    description: Lệnh Để Chỉnh Số Credits Cho Một Người Chơi
+  seecredits:
+    usage: /seecredits <tên>
+    description: Lệnh Để Xem Số Credits Của Một Người Chơi
+  givecredits:
+    usage: /givecredits <tên> <số>
+    description: Lệnh Để Lấy Credits Cho Một Người Chơi
+  takecredits:
+    usage: /takecredits <tên> <số>
+    description: Lệnh Để Lấy Credits Của Một Người Chơi
+  paycredits:
+    usage: /paycredits <tên> <số>
+    description: Lệnh Để Chuyển Credits Cho Một Người Chơi
+  setlangcredits:
+    usage: /setlangcredits <ngôn ngữ>
+    description: Lệnh Để Đặt Ngôn Ngữ Cho Credits [def,en,vie]
+  mystatuscredits:
+    usage: /mystatuscredits
+    description: Lệnh Để Xem Tình Trạng Credits Của Bạn
+language-set: §l[§l§eMINE§bLIGHT§6]§e Đã chọn§b %1 §elà ngôn ngữ
+request-cancelled: §l[§l§eMINE§bLIGHT§6]§e Yêu cầu của bạn đã bị hủy
+player-not-connected: §l[§l§eMINE§bLIGHT§6]§e Người chơi tên§b %1 §ehiện không có
+  trực tuyến.
+player-never-connected: §l[§l§eMINE§bLIGHT§6]§e Người chơi tên§b %1 §ekhông tìm thấy
+  trong server.
+topcredits-tag: §l§c-=§e TOP §aCredits§b %1/%2 §c=-
+topcredits-format: '§e]%1] %2: %3 §aCredits'
+pay-failed: §l[§l§eMINE§bLIGHT§6]§e Bạn không có đủ §aCredits§e để chuyển
+pay-success: §l[§l§eMINE§bLIGHT§6]§e Bạn đã chuyển§a %1 §aCredits§e cho§b %2
+credits-paid: §l[§l§eMINE§bLIGHT§6]§e Người chơi§b %1 §eVừa Chuyển Cho Bạn§a %2 Credits.
+takecredits-must-be-number: §l§cSố lượng phải là số
+takecredits-invalid-number: §l§cSố không hợp lệ
+takecredits-player-lack-of-credits: '%1 không đủ %MONETARY_UNIT%%2. %1''s Credits
+  : %MONETARY_UNIT%%3'
+takecredits-credits-taken: §l[§l§eMINE§bLIGHT§6]§e bạn đã bị tịch thu:§a %1 Credits
+takecredits-took-credits: §l[§l§eMINE§bLIGHT§6]§e Đã tịch thu§a %2 Credits§3 của người
+  chơi§b %1
+takecredits-failed: §l[§l§eMINE§bLIGHT§6]§e Bạn không thể lấy §aCredits §etừ người
+  này
+givecredits-must-be-number: §l§cSố Credits phải là số
+givecredits-invalid-number: §l§cSai số
+givecredits-credits-given: §l[§l§eMINE§bLIGHT§6]§e Bạn đã nhận được:§a %1 Credits
+givecredits-gave-credits: §l[§l§eMINE§bLIGHT§6]§e Đã Lấy§a %1 Credits§e cho người
+  chơi§b %2
+seecredits-seecredits: §l[§l§eMINE§bLIGHT§6]§e Người chơi§b %1 §ehiện đang có:§a %2
+  Credits
+setcredits-setcredits: §l[§l§eMINE§bLIGHT§6]§e Người chơi§b %1 §eđã được chỉnh §aCredits
+  §ethành§b %2 §a
+setcredits-set: §l[§l§eMINE§bLIGHT§6]§a Credits§e của bạn đã được chỉnh thành:§a %1
+  Credits
+setcredits-failed: §l§cKhông thể đặt Credits do lỗi không xác định
+setcredits-invalid-number: §l§c%MONETARY_UNIT%%1 Phải là một số
+mycredits-mycredits: §l[§l§eMINE§bLIGHT§6]§a Credits§e của bạn:§a %1 Credits
+mystatus-show: §l[§l§eMINE§bLIGHT§6]§e Trạng thái §aCredits§e của bạn:§b %1%
+...

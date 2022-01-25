@@ -1,0 +1,14 @@
+{
+  "type": "custom_form",
+  "title": "Cài Đặt",
+  "icon": {
+    "type": "url",
+    "data": "https://img.icons8.com/color/96/000000/crafting-table.png"
+  },
+  "content": [
+    {
+      "type": "label",
+      "text": "Xin Chào ! Đây là 1 server biệt đội vượt ngục, Về cốt chuyện bạn hãy xem tại kênh của NoobMCBG, cách chơi cũng sẽ ở đó, chúc bạn chơi vui vẻ"
+    }
+  ]
+}
