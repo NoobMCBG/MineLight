@@ -1,0 +1,29 @@
+name: CreditsAPI
+main: NoobMCBG\CreditsAPI\CreditsAPI
+api: 3.0.0
+version: 0.0.3
+author: NoobMCBG, pmmdst
+
+commands:
+  mycredits:
+    description: Lệnh Để Xem Số Credits Của Bạn
+    default: true
+  setcredits:
+    description: Lệnh Để Chỉnh Số Credits Của Người Khác
+    usage: /setcredits <player> <credits>
+  topcredits:
+    description: Lệnh Để Xem TOP Credits Của Server
+    default: true
+  paycredits:
+    description: Lệnh Để Chuyển Credits Cho Người Khác
+    default: true
+  givecredits:
+    description: Lệnh Để Tặng Credits Cho Người Chơi
+    usage: /givecredits <player> <credits>
+
+permissions:
+  creditsapi.command.setcredits:
+    description: Quyền Lệnh /setcredits
+    default: op
+  creditsapi.command.givecredits:
+    default: op

@@ -1,0 +1,9 @@
+name: AutoSell
+main: LamPocketVN\AutoSell\AutoSell
+version: 0.1.lpk
+api: 3.0.0
+author: LamPocketVN
+description: Auto-Sell plugin
+commands:
+  autosell:
+    description: Lệnh Chế Độ AutoSell

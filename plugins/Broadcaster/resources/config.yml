@@ -1,0 +1,76 @@
+---
+# Available tags for broadcast messages, popups and titles:
+# - {MAXPLAYERS}: Show the maximum number of players supported by the server
+# - {TOTALPLAYERS}: Show the number of all online players
+# - {PREFIX}: Show prefix
+# - {SUFFIX}: Show suffix
+# - {TIME}: Show current time
+# Available tags for /sendmessage, /sendpopup and /sendtitle format:
+# - {MESSAGE}: Show message
+# - {MAXPLAYERS}: Show the maximum number of players supported by the server
+# - {TOTALPLAYERS}: Show the number of all online players
+# - {PREFIX}: Show prefix
+# - {PLAYER}: Message receiver
+# - {SENDER}: Show sender name
+# - {SUFFIX}: Show suffix
+# - {TIME}: Show current time
+# Extra tag for titles:
+# - {SUBTITLE}: Add subtitle (the text after this tag will be the content of the subtitle) 
+# Prefix
+prefix: "&9[&eBroadcaster&9]"
+# Suffix
+suffix: "[A]"
+# Date\Time format (replaced in {TIME}). For format codes read http://php.net/manual/en/datetime.formats.php
+datetime-format: "H:i:s"
+# Message broadcast
+message-broadcast:
+ # Enable message broadcast
+ enabled: true
+ # Broadcast interval (in seconds)
+ time: 70
+ # Command /sendmessage format
+ command-format: "&e[{TIME}] {PREFIX} {SUFFIX} &a{SENDER}&e>&f {MESSAGE}"
+ # Broadcast messages
+ messages:
+  - "§l§c•§e Để Chơi SkyBlock, Hãy Sử Dụng Lệnh§b /skyblock§e Hoặc§b /sb !"
+  - "§l§c•§e Để Mua Fly Hãy Sử Dụng Lệnh §b/muafly §eHoặc §b/buyfly§e, Giá Mỗi Lần Mua Là§a 10000 Xu"
+  - "§l§c•§e Để Mua §2Token §eHãy Sử Dụng Lệnh §b/muatoken §eHoặc §b/muagoi"
+  - "§l§c•§e Các Khu Đi Săn Sẽ Được Bắt Đầu Vào Những Buổi Tối, Sử Dụng§b /ngaydisan§e Để Xem Các Ngày Đi Săn !"
+  - "§l§c•§e Để Cày Cuốc Nhanh Hơn, Hãy Mua§a OreSpawner§e Bằng Lệnh §b/muaorespawner§e Hoặc§b /muaosp"
+  - "§l§c•§e Sử Dụng§b /diemdanh§e Để Nhận Quà Điểm Danh Hằng Ngày Sau §a24h§e !"
+  - "§l§c•§b /virtualcoin§e Để Mua Và Bán Đồng Tiền Ảo !"
+  - "§l§c•§e Để Có Ranks VIP Hãy Sử Dụng Lệnh §b/muavip§e, Để Xem Các Quyền Ranks, Hãy sử dụng §b/vip"
+  - "§l§c•§e Nếu Bạn Quên Địa Điểm Mình Ở, Hãy Sử Dụng Lệnh §b/sethome <tên home>§e Để Lưu Nhà Của Bạn và§b /home <tên home>§e Để Về Nhà Của Bạn"
+  - "§l§c•§e Làm Nhiệm Vụ Sẽ Giúp Bạn Kiếm Được Thêm Nhiều§a Xu§e Và§2 Tokens§e Hơn Đấy, Hãy Thử Làm Bằng Lệnh§b /quest§e Hoặc §b/nhiemvu§e !"
+  - "§l§c•§e Sử Dụng§b /kit§e Để Nhận Kit VIP Tương Ứng Với Quyền Ranks Của Bạn !"
+  - "§l§c•§e Để Tạo 1 Clan, Hãy Sử Lệnh §b/clan create <tên clan>§e Với Giá§a 100000 Xu§e, Nếu Không Biết Các Lệnh Hãy Sử Dụng§b /clan help"
+  - "§l§c•§e Lệnh §b/choden§e Để Mua Các Tính Năng Như§a KingOfBlock§e Và §aEternity§e !"
+  - "§l§c•§e Để Xem Tình Trạng Bệnh Dịch Trong Server hãy Sử dụng lệnh §b/virus§e hoặc§b /dichbenh"
+# Popup broadcast
+popup-broadcast:
+ # Enable popup broadcast
+ enabled: false
+ # Popup broadcast interval (in seconds)
+ time: 15
+ # Popup duration (in seconds)
+ duration: 5
+ # Command /sendpopup format
+ command-format: "&a{SENDER}&e>>&f {MESSAGE}"
+ # Popup broadcast messages
+ messages:
+  - "&aWelcome to your server"
+  - "&d{TOTALPLAYERS} &eof &d{MAXPLAYERS} &eonline"
+  - "&bCurrent Time: &a{TIME}"
+# Title broadcast
+title-broadcast:
+ # Enable title broadcast
+ enabled: false
+ # Title broadcast interval
+ time: 30
+ # Command /sendtitle format
+ command-format: "&d{MESSAGE}"
+ # Title broadcast messages
+ messages:
+  - "&aWelcome to your server!{SUBTITLE}&bGood game!"
+  - "&eHello player!"
+...

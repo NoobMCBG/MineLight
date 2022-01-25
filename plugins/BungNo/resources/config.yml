@@ -1,0 +1,10 @@
+---
+# Độ Nổ To - Bé
+explosive-level: 4
+# Thời Gian Hồi Chiêu
+cooldown: 3
+# Độ Cao Khi Nổ
+height: 1
+# Độ Rộng Khi Nổ
+width: 8
+...

@@ -1,0 +1,18 @@
+﻿name: PhatLuongAuto
+version: 1.0.0 BETA
+api: 3.0.0
+main: PLAuto\Main
+author: 
+- VanhLXYTB
+- NoobMCBG
+- NoobOfBlinds
+- YTBJero
+description: Plugin Auto Phát Lương Làm Bởi NoobMCBG and YTBJero
+
+commands:
+  nhanluong:
+    description: "Lệnh Để Mở Menu Nhận Lương Auto"
+    aliases: [nl, luong]
+permissions:
+  nhanluong.command:
+    default: op

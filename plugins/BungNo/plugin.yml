@@ -1,0 +1,10 @@
+name: BungNo
+main: NoobMCBG\BungNo\Main
+api: 3.0.0
+version: 1.0.0
+author: NoobMCBG
+
+commands:
+  bungno:
+    description: Lệnh Để Lấy Item Bùng Nổ
+    aliases: [boom]

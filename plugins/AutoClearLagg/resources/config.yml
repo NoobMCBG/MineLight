@@ -1,0 +1,21 @@
+﻿---
+# AutoClearLagg (ACL) Config
+
+# Seconds between each clear lagg
+seconds: 301
+
+# Entities to clear
+clear:
+  items: true
+  mobs: true
+  xp-orbs: true
+  exempt: # Array of entities not to clear
+    - Pig
+
+messages:
+  time-left: "§l§c•§e Tất Cả Các Đồ Vật Trên Mặt Đất Sẽ Được Dọn Sau§a {SECONDS} Giây Nữa !"
+  entities-cleared: "§l§c•§e Đã Dọn Được Tất Cả§a {COUNT} Đồ Vật !"
+
+# Countdown times
+times: [300, 200, 100, 60, 30, 15, 10, 5]
+...
