@@ -1,0 +1,15 @@
+name: KingOfBlock
+version: 1.0.0
+api: 3.0.0
+main: KOB\Main
+author: YTBJero, NoobMCBG
+github: https://github.com/JeroGamingYT
+
+commands:
+  kingofblock:
+    description: Lệnh Để Mở Menu Kĩ Năng KingOfBlock
+    aliases:
+    - kob
+permissions:
+  kingofblock.command:
+    default: op

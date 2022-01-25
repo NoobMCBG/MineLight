@@ -1,0 +1,5 @@
+﻿# Delay teleport to hub in seconds
+delay: 1
+
+# Message that will be displayed when the player tries "/ hub" quickly.
+msg_too_fast: " "

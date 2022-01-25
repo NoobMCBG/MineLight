@@ -1,0 +1,20 @@
+﻿name: HoiPhuc
+main: HoiPhuc\Main
+version: 2.0.0
+api: [ 3.14.0 ]
+author: brokiem
+editor: NoobMCBG
+mcpe-protocol: [407, 408, 418, 419, 421, 422, 465, 475]
+
+commands:
+  hoiphuc:
+    description: "Lệnh Để Hồi Phục Máu Và Thức Ăn"
+    permission: hoiphuc.command
+    aliases: [hp]
+  hoiphuckick:
+    description: "Lệnh Để Không Cho Người Khác Hồi Phục"
+    default: op
+    aliases: [hpk, hpkick]
+permissions:
+  hoiphuc.command:
+    default: op

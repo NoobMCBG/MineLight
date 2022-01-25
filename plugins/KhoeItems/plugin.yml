@@ -1,0 +1,13 @@
+name: KhoeItem
+main: showitem\Main
+api: 3.0.0
+version: 1.0.0
+author: LetTIHL, NoobMCBG
+commands:
+  seeitem:
+    description: "Lệnh Để Xem Tất Cả Các Item Được Khoe"
+    aliases: [listitemkhoe, itemlist]
+  showitem:
+    description: "Lệnh Để Khoe Items Trên Tay Bạn"
+    aliases: [st, khoeitem, khoeitems, ki]
+  
