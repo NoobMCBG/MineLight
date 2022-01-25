@@ -1,0 +1,63 @@
+---
+version: 1.4.10-6
+default-factions-plugin: FactionsPro
+enable-multiworld-chat: false
+groups:
+  Guest:
+    chat: §l§f[§b{clan_tag}§r§l§f] §aTù Nhân §f[§6{display_name}§f] > {msg}§r
+    nametag: §l§e❖§6 §l§f[§b{clan_tag}§r§l§f] {display_name} §e❖
+    worlds: []
+  Admin:
+    chat: §l§f[§b{clan_tag}§r§l§f] §cGiám Thị §l§f[§6{display_name}§f] > §e{msg}
+    nametag: §l§e❖§c §l§f[§b{clan_tag}§r§l§f] §cGiám Thị §f:§6 {display_name} §e❖
+    worlds: []
+  Police:
+    chat: §l§f[§a{clan_name}§f] §f[§cCai Ngục§f] §f[§b{display_name}§f] §e> §6{msg}
+    nametag: §l§e❖§a §l§f[§b{clan_tag}§r§l§f] §9Quản Giáo §f:§6 {display_name}  §e❖
+  Helper:
+    chat: §l§f[§b{clan_tag}§r§l§f] §dHậu Cần §f[§6{display_name}§f] > §a{msg}
+    nametag: §l§e❖§a §l§f[§b{clan_tag}§r§l§f] §aHậu Cần §f:§6 {display_name} §e❖
+  OP:
+    chat: ❖
+    nametag: ❖
+    worlds: []
+  YouTuber:
+    chat: §l§f[§b{clan_tag}§r§l§f] §cYou§fTuber §f[§6{display_name}§f] > §c{msg}
+    nametag: §l§e❖§a §l§f[§b{clan_tag}§r§l§f] §cYou§fTuber §f:§6 {display_name} §e❖
+  Ốp:
+    nametag: '&8&l[Ốp]&f&r {display_name}'
+    chat: '&8&l[Ốp]&f&r {display_name} &7> {msg}'
+  PhuThuy:
+    nametag: '&8&l[PhuThuy]&f&r {display_name}'
+    chat: '&8&l[PhuThuy]&f&r {display_name} &7> {msg}'
+  QUÊN:
+    nametag: '&8&l[QUÊN]&f&r {display_name}'
+    chat: '&8&l[QUÊN]&f&r {display_name} &7> {msg}'
+  KINH:
+    nametag: '&8&l[KINH]&f&r {display_name}'
+    chat: '&8&l[KINH]&f&r {display_name} &7> {msg}'
+  admin:
+    nametag: '&8&l[admin]&f&r {display_name}'
+    chat: '&8&l[admin]&f&r {display_name} &7> {msg}'
+  HenTaicc:
+    nametag: '&8&l[HenTaicc]&f&r {display_name}'
+    chat: '&8&l[HenTaicc]&f&r {display_name} &7> {msg}'
+  Thumbzilla:
+    nametag: '&8&l[Thumbzilla]&f&r {display_name}'
+    chat: '&8&l[Thumbzilla]&f&r {display_name} &7> {msg}'
+  CaiNgục:
+    nametag: '&8&l[CaiNgục]&f&r {display_name}'
+    chat: '&8&l[CaiNgục]&f&r {display_name} &7> {msg}'
+  Pol:
+    nametag: '&8&l[Pol]&f&r {display_name}'
+    chat: '&8&l[Pol]&f&r {display_name} &7> {msg}'
+  Bede:
+    nametag: '&8&l[Bede]&f&r {display_name}'
+    chat: '&8&l[Bede]&f&r {display_name} &7> {msg}'
+  §l§2Builder:
+    nametag: '&8&l[§l§2Builder]&f&r {display_name}'
+    chat: '&8&l[§l§2Builder]&f&r {display_name} &7> {msg}'
+  Trongluadi:
+    nametag: '&8&l[Trongluadi]&f&r {display_name}'
+    chat: '&8&l[Trongluadi]&f&r {display_name} &7> {msg}'
+...

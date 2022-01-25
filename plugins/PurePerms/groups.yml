@@ -1,0 +1,101 @@
+---
+Guest:
+  alias: gst
+  inheritance: []
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pocketmine.command.transferserver
+  - pperms.command.ppinfo
+  worlds:
+    MyPlot:
+      isDefault: true
+      permissions: []
+  isDefault: true
+Admin:
+  alias: adm
+  inheritance:
+  - Guest
+  permissions:
+  - antihack.notice
+  - essentials.gamemode
+  - fly.cmd
+  - pocketmine.broadcast
+  - pocketmine.command.gamemode
+  - pocketmine.command.give
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pocketmine.command.transferserver
+  - pocketmine:ban
+  - warpspro.command.warp.*
+  worlds:
+    MyPlot:
+      isDefault: false
+      permissions: []
+OP:
+  alias: op
+  inheritance: []
+  permissions:
+  - '*'
+  worlds:
+    MyPlot:
+      isDefault: false
+      permissions: []
+Helper:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - antihack.notice
+  - fly.cmd
+  - pocketmine.command.teleport
+  - pocketmine.command.transferserver
+  worlds:
+    MyPlot:
+      isDefault: false
+      permissions: []
+Police:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - antihack.notice
+  - fly.cmd
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.transferserver
+  - pocketmine:v
+  - pocketmine:vanish
+  - v
+  - vanish
+  worlds:
+    MyPlot:
+      isDefault: false
+      permissions: []
+YouTuber:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions:
+  - fly.cmd
+  - pocketmine.command.teleport
+  - pocketmine.command.transferserver
+  worlds:
+    MyPlot:
+      isDefault: false
+      permissions: []
+Trongluadi:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds:
+    MyPlot:
+      isDefault: false
+      permissions: []
+...
