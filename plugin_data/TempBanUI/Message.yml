@@ -1,0 +1,21 @@
+---
+BroadcastBanMessage: '§e{player} §cđã bị cấm bởi §e{staff} §cvì §b{day} day/s, {hour}
+  hour/s, {minute} minute/s. §cLý do: §e{reason}'
+KickBanMessage: "§cBạn bị cấm bởi §e{staff} §cvì §b{day} §bday/s, §b{hour} §bhour/s,
+  §b{minute} §bminute/s. \n§DLý Dó: §e{reason}"
+LoginBanMessage: "§cBạn vẫn bị cấm vì §b{day} §bday/s, §b{hour} §bhour/s, §b{minute}
+  §bminute/s, §b{second} §bsecond/s. \n§cLý Do: §e{reason} \n§cBanned bởi: §e{staff}"
+BanMyself: §cBạn không thể cấm chính mình!
+BanModeOn: §aChế độ cấm đang bật
+BanModeOff: §cBan mode off
+NoBanPlayers: §eKhông cấm người chơi
+UnBanPlayer: §e{player} §ađã được bỏ cấm
+AutoUnBanPlayer: §e{player} §ađã được tự động bỏ cấm. Đã hết thời gian cấm
+BanListTitle: §9§l« §r§1DANH SÁCH NGƯỜI CHƠI BỊ BAN §9§l»§r
+BanListContent: '§r '
+PlayerListTitle: §6§l« §r§eDANH SÁCH NGƯỜI CHƠI §6§l»
+PlayerListContent: '§r '
+InfoUIContent: "§3§lThông tin:§r \n§bDay: {day} \n§bHour: §b{hour} \n§bMinute: §b{minute}
+  \n§bSecond: §b{second} \n§cLý Do: §e{reason} \n§cBanned bởi: §e{staff}\n\n\n\n\n"
+InfoUIUnBanButton: §aBỏ cấm người chơi
+...
