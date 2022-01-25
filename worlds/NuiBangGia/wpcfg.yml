@@ -1,0 +1,6 @@
+---
+protect: lock
+banitem:
+  325: Bucket
+  259: Flint and Steel
+...

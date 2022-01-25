@@ -1,0 +1,7 @@
+---
+banitem:
+  389: Item Frame
+auth:
+  clickedtran: clickedtran
+protect: lock
+...
