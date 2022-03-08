@@ -11,6 +11,7 @@ use pocketmine\plugin\PluginBase as PB;
 class Main extends PB implements L {
 
 	public function onEnable(){
+                $this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getLogger()->info("ANTIBUG ORESPAWNERS");
 		$this->saveDefaultConfig();
 	}
